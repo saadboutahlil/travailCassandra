@@ -15,7 +15,7 @@ public class CassandraConfig {
         return CqlSession.builder()
                          .addContactPoint(new InetSocketAddress("127.0.0.1", 9042))
                          .withLocalDatacenter("datacenter1")
-                         .withKeyspace("my_keyspace")   // Set the local datacenter explicitly
+                         .withKeyspace("my_keyspace")
                          .build();
     }
 }
