@@ -7,5 +7,4 @@ import com.cassandra.demo.Models.Personne;
 import java.util.UUID;
 
 public interface PersonneRepository extends CassandraRepository<Personne, UUID> {
-    // You can define custom queries here if needed
 }
