@@ -2,7 +2,7 @@ package com.cassandra.demo.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cassadra.demo.DTO.PersonneAvecAdressesDTO;
+import com.cassandra.demo.DTO.PersonneAvecAdressesDTO;
 import com.cassandra.demo.Models.Adresse;
 import com.cassandra.demo.Models.Personne;
 import com.cassandra.demo.Repository.AdresseRepository;

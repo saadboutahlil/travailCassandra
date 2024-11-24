@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.cassadra.demo.DTO.PersonneAvecAdressesDTO;
+import com.cassandra.demo.DTO.PersonneAvecAdressesDTO;
 import com.cassandra.demo.Models.Personne;
 import com.cassandra.demo.Service.PersonneService;
 

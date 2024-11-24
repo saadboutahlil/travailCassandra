@@ -1,4 +1,4 @@
-package com.cassadra.demo.DTO;
+package com.cassandra.demo.DTO;
 
 import java.util.List;
 
